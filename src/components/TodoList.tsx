@@ -90,6 +90,7 @@ const TodoList = () => {
 
   return (
     <>
+      <h1>Revert</h1>
       <form onSubmit={handleSubmitAdd(onSubmit)}>
         <input
           placeholder="Name"
